@@ -15,16 +15,17 @@
   z-index: 1;
 }
 
-.logom{
+.logom {
   background: #ff56f6;
-background: linear-gradient(to right, #ff56f6 0%, #406AFF 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #ff56f6 0%, #406aff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.btn::before{
+.btn::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   right: 0;
   bottom: 0;
@@ -39,11 +40,11 @@ background: linear-gradient(to right, #ff56f6 0%, #406AFF 100%);
   z-index: -1;
   transition: opacity 0.2s linear;
   opacity: 0;
-  border-radius: 9999px
+  border-radius: 9999px;
 }
 
 .btn:hover::before {
-   opacity: 1;
+  opacity: 1;
 }
 
 .gradient,
