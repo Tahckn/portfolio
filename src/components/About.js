@@ -26,7 +26,7 @@ const About = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1"
+            className="flex-1 lg:text-left text-center"
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">I'm a Freelance Front-end Developer</h3>
@@ -37,9 +37,9 @@ const About = () => {
               pariatur, in dignissimos exercitationem.
             </p>
             {/* stats */}
-            <div className="flex gap-x-6 lg:gap-x-10 mb-12">
+            <div className="flex gap-x-6 lg:gap-x-10 mb-12 justify-center lg:justify-start">
               <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2 ">
+                <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={80} duration={3} /> : null}+
                   <div className="font-primary text-sm tracking-[2px]">
                     Projects <br />
@@ -65,7 +65,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-x-8 items-center">
+            <div className="flex gap-x-8 items-center lg:justify-start justify-center">
               <button className="btn btn-lg">Contact me</button>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
