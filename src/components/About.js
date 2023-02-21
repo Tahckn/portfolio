@@ -1,8 +1,8 @@
-import React from 'react'
 import CountUp from 'react-countup'
-import { useInView } from 'react-intersection-observer'
-import { motion } from 'framer-motion'
+import React from 'react'
 import { fadeIn } from '../variants'
+import { motion } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -18,7 +18,7 @@ const About = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain mb-6 bg-no-repeat h-[450px] mix-blend-lighten bg-top"
+            className="flex-1 bg-about bg-contain mb-6 bg-no-repeat min-h-[150px] h-[450px] mix-blend-lighten bg-top"
           ></motion.div>
           {/* text  */}
           <motion.div

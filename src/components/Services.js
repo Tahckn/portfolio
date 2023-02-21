@@ -1,7 +1,7 @@
-import React from 'react'
 import { BsArrowUpRight } from 'react-icons/bs'
-import { motion } from 'framer-motion'
+import React from 'react'
 import { fadeIn } from '../variants'
+import { motion } from 'framer-motion'
 
 const services = [
   {
@@ -56,7 +56,7 @@ const Services = () => {
                 return (
                   <div
                     className="border-b border-white/20 h-auto mb-[38px] flex text-center lg:text-left flex-col lg:flex-row"
-                    key={index}
+                    key={name}
                   >
                     <div className="max-w-[476px]">
                       <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
