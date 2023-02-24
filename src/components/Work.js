@@ -20,9 +20,7 @@ const Work = () => {
                 My Latest <br /> Work.
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                cumque reiciendis dolor vero molestiae, dignissimos enim
-                similique sed soluta animi.
+                Through Github, you can search every one of my projects.
               </p>
               <a
                 href="https://github.com/Tahckn?tab=repositories"

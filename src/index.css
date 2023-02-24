@@ -121,7 +121,11 @@ input:-webkit-autofill:active {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 
-  input:disabled {
+  input[type='submit']:disabled {
     @apply opacity-50 cursor-not-allowed;
+  }
+
+  input[type='submit'] {
+    @apply active:translate-y-[2px] hover:scale-[1.02] transition-all duration-75 hover:-translate-y-[2px];
   }
 }

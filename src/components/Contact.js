@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css'
 
 const Contact = () => {
   const form = useRef()
-  const [btn, setBtn] = useState(true)
+  const [btn, setBtn] = useState(false)
 
   const sendEmail = (e) => {
     e.preventDefault()

@@ -7,13 +7,19 @@ const services = [
   {
     name: 'Development',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cumque reiciendis dolor vero molestiae, dignissimos enim similique sed soluta animi. Necessitatibus, aliquam reiciendis laborum earum autem voluptas! Odit, voluptatum facilis.',
+      'With the help of various JavaScript frameworks, including React Vue Next and Nuxt, I can create single-page or multi-page web applications. Additionally, include a cloud database and implement real-time data.',
     link: 'Learn more',
   },
   {
     name: 'Product Branding',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cumque reiciendis dolor vero molestiae, dignissimos enim similique sed soluta animi. Necessitatibus, aliquam reiciendis laborum earum autem voluptas! Odit, voluptatum facilis.',
+      'By developing an effective brand strategy, companies are able to establish long-term relationships with their target audiences and create loyalty among consumers who identify with their brands.',
+    link: 'Learn more',
+  },
+  {
+    name: 'Deploying',
+    description:
+      'By developing an effective brand strategy, companies are able to establish long-term relationships with their target audiences and create loyalty among consumers who identify with their brands.',
     link: 'Learn more',
   },
 ]
