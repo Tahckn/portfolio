@@ -3,6 +3,7 @@ import React from 'react'
 import { fadeIn } from '../variants'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { Link } from 'react-scroll'
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -31,10 +32,10 @@ const About = () => {
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">I'm a Freelance Front-end Developer</h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              quia debitis totam ad! Accusamus unde minima eaque tempore
-              incidunt, porro, sapiente minus doloremque possimus a soluta
-              pariatur, in dignissimos exercitationem.
+              I first became interested in the web when I was 18 years old. I've
+              used HTML and CSS to build dozens of websites. To create SPA and
+              more complex websites, however, I wanted to learn the JavaScript
+              frameworks and libraries, like Vue.js and React.js.
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 justify-center lg:justify-start">
@@ -66,8 +67,15 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center lg:justify-start justify-center">
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
+              <Link
+                to="contact"
+                smooth={true}
+                spy={true}
+                className="btn cursor-pointer btn-lg justify-center items-center flex"
+              >
+                Contact me
+              </Link>
+              <a className="text-gradient btn-link " href="#contact">
                 My Portfolio
               </a>
             </div>

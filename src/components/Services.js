@@ -38,7 +38,13 @@ const Services = () => {
               I'm a Freelance <br /> Front-end Developer
             </h3>
             <div className="flex justify-center lg:justify-start">
-              <button className="btn btn-sm">See my work</button>
+              <a
+                href="https://github.com/Tahckn?tab=repositories"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-sm">See my work</button>
+              </a>
             </div>
           </motion.div>
           {/* services  */}
