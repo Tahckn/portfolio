@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const Header = () => {
   return (
@@ -14,7 +15,15 @@ const Header = () => {
               ÇEKEN
             </span>{' '}
           </a>
-          <button className="btn btn-sm">Work with me</button>
+
+          <Link
+            to="contact"
+            smooth={true}
+            spy={true}
+            className="btn btn-sm cursor-pointer justify-center items-center flex"
+          >
+            Work with me
+          </Link>
         </div>
       </div>
     </header>
