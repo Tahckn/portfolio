@@ -96,7 +96,7 @@ const Work = () => {
             </a>
             {/* image  */}
             <a
-              href="https://blogsar.netlify.app/"
+              href="https://spot-control.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -107,7 +107,7 @@ const Work = () => {
                 <img
                   className="group-hover:scale-125 transition-all duration-500"
                   src={
-                    'https://github.com/Tahckn/spot-control/blob/main/public/assets/msedge_lnosRCIkbm.png'
+                    'https://raw.githubusercontent.com/Tahckn/spot-control/main/public/assets/msedge_lnosRCIkbm.png'
                   }
                   alt=""
                 />
