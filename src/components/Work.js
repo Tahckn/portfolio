@@ -107,17 +107,17 @@ const Work = () => {
                 <img
                   className="group-hover:scale-125 transition-all duration-500"
                   src={
-                    'https://github.com/Tahckn/blogsar/raw/main/public/chrome_x9uH0WuGZG.jpg?raw=true'
+                    'https://github.com/Tahckn/spot-control/blob/main/public/assets/msedge_lnosRCIkbm.png'
                   }
                   alt=""
                 />
                 {/* pretitle  */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">
-                  <span className="text-gradient ">Dynamic Blog Website</span>
+                  <span className="text-gradient ">Project Management Website</span>
                 </div>
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 ">
-                  <span className="text-3xl text-white">Blogsar</span>
+                  <span className="text-3xl text-white">Spot Control</span>
                 </div>
               </div>
             </a>
