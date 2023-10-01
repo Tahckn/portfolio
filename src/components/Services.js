@@ -81,7 +81,7 @@ const Services = () => {
                         {description}
                       </p>
                     </div>
-                    <div className="mt-4 flex flex-col whitespace-nowrap flex-1 items-center lg:items-end lg:mt-0 justify-center lg:justify-start ">
+                    <div className="mt-4 flex flex-col whitespace-nowrap flex-1 items-center lg:items-end lg:mt-[0px] justify-center lg:justify-start ">
                       <a
                         target="_blank"
                         href={link}
