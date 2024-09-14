@@ -43,19 +43,19 @@ const Work = () => {
                 <img
                   className="group-hover:scale-125 transition-all duration-500"
                   src={
-                    'https://github.com/Tahckn/listify/raw/main/public/chrome_WPcwWXt9Sa.png'
+                    'https://raw.githubusercontent.com/Tahckn/portfolio/main/public/%7B4345B20A-4F46-4374-870D-07778580A0A5%7D.png'
                   }
-                  alt=""
+                  alt="listify"
                 />
                 {/* pretitle  */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">
                   <span className="text-gradient ">
-                    Save and share your playlists
+                    E-commerce Website
                   </span>
                 </div>
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 ">
-                  <span className="text-3xl text-white">Listify</span>
+                  <span className="text-3xl text-white">Sabba Home</span>
                 </div>
               </div>
             </a>
@@ -69,7 +69,7 @@ const Work = () => {
           >
             {/* image  */}
             <a
-              href="https://relyonrhythm.netlify.app/"
+              href="https://www.kfagames.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -80,17 +80,19 @@ const Work = () => {
                 <img
                   className="group-hover:scale-125 transition-all duration-500"
                   src={
-                    'https://github.com/Tahckn/rely-on-rhythm/raw/main/public/rely-on-rhythm_VATm37jU7V.png'
+                    'https://raw.githubusercontent.com/Tahckn/portfolio/main/public/%7BD5A44983-475C-4693-9DF6-96A6C96AE4C1%7D.png'
                   }
-                  alt=""
+                  alt="kfa games"
                 />
                 {/* pretitle  */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">
-                  <span className="text-gradient ">Online Music Stream</span>
+                  <span className="text-gradient ">Dynamic Game Company Website</span>
                 </div>
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 ">
-                  <span className="text-3xl text-white">Rely On Rhythm</span>
+                  <span className="text-3xl text-white">
+                    KFA Games
+                  </span>
                 </div>
               </div>
             </a>
@@ -109,7 +111,7 @@ const Work = () => {
                   src={
                     'https://raw.githubusercontent.com/Tahckn/spot-control/main/public/assets/msedge_lnosRCIkbm.png'
                   }
-                  alt=""
+                  alt="spot control"
                 />
                 {/* pretitle  */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">

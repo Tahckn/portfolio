@@ -90,7 +90,7 @@ input:-webkit-autofill:active {
 
 @layer base {
   body {
-    @apply scroll-smooth font-secondary text-lg leading-8 text-white;
+    @apply scroll-smooth font-secondary text-lg leading-8 text-white overflow-x-hidden;
   }
   .h2 {
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
@@ -118,7 +118,7 @@ input:-webkit-autofill:active {
     @apply object-cover;
   }
   .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+    @apply py-12 lg:py-24 lg:h-screen flex items-center;
   }
 
   input[type='submit']:disabled {

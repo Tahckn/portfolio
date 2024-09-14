@@ -6,7 +6,10 @@ const Header = () => {
     <header className="py-8">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-          <a href="#">
+          <Link
+          to="about"
+          className="cursor-pointer"
+          >
             {' '}
             <h1 className="logom font-bold font-secondary uppercase -mb-3 text-5xl">
               Taha
@@ -14,7 +17,7 @@ const Header = () => {
             <span className="text-white font-secondary font-bold text-5xl">
               ÇEKEN
             </span>{' '}
-          </a>
+          </Link>
 
           <Link
             to="contact"
